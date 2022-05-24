@@ -3,7 +3,6 @@ function validate() {
   var email = document.getElementById("email").value;
   var password = document.getElementById("password").value;
   var confirmpassword = document.getElementById("confirmpassword").value;
-
   checkusername(userName);
   checkemail(email);
   checkpassword(password);
